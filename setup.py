@@ -8,7 +8,7 @@ from setuptools import setup
 
 setup(
     name='carbon',
-    version='0.9.15.1',
+    version='0.9.15',
     url='http://graphite-project.github.com',
     author='Chris Davis',
     author_email='chrismd@gmail.com',
