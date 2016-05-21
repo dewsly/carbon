@@ -18,6 +18,6 @@ setup(
     package_dir={'' : 'lib'},
     package_data={'carbon' : ['*.xml']},
     scripts=glob('bin/*'),
-    install_requires=['twisted', 'whisper'],
+    install_requires=['twisted==16.1.1', 'whisper'],
     extras_require={'amqp': ['txamqp']}
 )
